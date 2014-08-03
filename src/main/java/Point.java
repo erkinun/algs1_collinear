@@ -52,7 +52,7 @@ public class Point implements Comparable<Point> {
     // slope between this point and that point
     public double slopeTo(Point that) {
 
-        if (this.x == that.y && this.y == that.y) {
+        if (this.x == that.x && this.y == that.y) {
             return Double.NEGATIVE_INFINITY;
         }
 
