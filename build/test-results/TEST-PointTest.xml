@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PointTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2014-08-03T11:28:18" hostname="iCode" time="0.009">
+  <properties/>
+  <testcase name="testCompareToEqual" classname="PointTest" time="0.004"/>
+  <testcase name="testSlopeToPosZero" classname="PointTest" time="0.0"/>
+  <testcase name="testCompareToSmaller" classname="PointTest" time="0.0"/>
+  <testcase name="testCompareToSmallerByX" classname="PointTest" time="0.0"/>
+  <testcase name="testSlopeToNegInf" classname="PointTest" time="0.0"/>
+  <testcase name="testSlopeToPosInf" classname="PointTest" time="0.0"/>
+  <testcase name="testCompareToBiggerByX" classname="PointTest" time="0.0"/>
+  <testcase name="testCompareToBiggerByY" classname="PointTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
