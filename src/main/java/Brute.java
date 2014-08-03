@@ -22,14 +22,34 @@ public class Brute {
             points[index++] = new Point(in.readInt(), in.readInt());
         }
 
+//
+//        List<Point[]> tempComb = new ArrayList<Point[]>();
+//        for (int i = 0; i < arraySize - 3; i++) {
+//            for (int j = i + 1; j < arraySize - 2; j++) {
+//                for (int k = j + 1; k < arraySize - 1; k++) {
+//                    for (int l = k + 1; l < arraySize; l++) {
+//                        Point p1 = points[i];
+//                        Point p2 = points[j];
+//                        Point p3 = points[k];
+//                        Point p4 = points[l];
+//
+//                        Point[] lineSegment = new Point[]{p1, p2, p3, p4};
+//                        tempComb.add(lineSegment);
+//                    }
+//                }
+//            }
+//        }
+//
+//        StdOut.println("number of combs: " + tempComb.size());
+
         Point p1, p2, p3, p4;
 
         //get 4 combinations
         List<Point[]> lineSegments = new ArrayList<Point[]>();
-        for (int i = 0; i < arraySize - 4; i++) {
-            for (int j = i+1; j < arraySize - 3; j++) {
-                for (int k = i+2; k < arraySize - 2; k++) {
-                    for (int l = i+3; l < arraySize - 1; l++) {
+        for (int i = 0; i < arraySize - 3; i++) {
+            for (int j = i+1; j < arraySize - 2; j++) {
+                for (int k = j+1; k < arraySize - 1; k++) {
+                    for (int l = k+1; l < arraySize; l++) {
                         //test each combination if collinear
                         p1 = points[i];
                         p2 = points[j];

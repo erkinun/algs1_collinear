@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f3c59f-1f05-4d4b-91fb-bebda1efd909" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/inputs/input2000.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/inputs/input6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/inputs/input8.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Brute.java" afterPath="$PROJECT_DIR$/src/main/java/Brute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Point.java" afterPath="$PROJECT_DIR$/src/main/java/Point.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PointTest.java" afterPath="$PROJECT_DIR$/src/test/java/PointTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="collinear.iws" />
@@ -72,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14634146" vertical-offset="0" max-vertical-offset="410">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="330">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1470">
-              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <caret line="76" column="50" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,25 +104,22 @@
       <file leaf-file-name="Brute.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Brute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1260">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1560">
+              <caret line="48" column="72" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#678#687#0" expanded="true" />
+                <element signature="e#1448#1457#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComparableTimSort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/src.zip!/java/util/ComparableTimSort.java">
+      <file leaf-file-name="input8.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/inputs/input8.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1726" max-vertical-offset="13170">
-              <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
-              <folding>
-                <element signature="e#4978#4979#0" expanded="true" />
-                <element signature="e#5016#5017#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="482">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/config/inputs/input6.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="11" />
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -148,18 +140,6 @@
             <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="1470">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="In.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/stdlib.jar!/In.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2401" max-vertical-offset="7320">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +185,7 @@
               <option name="externalSystemIdString" value="GRADLE" />
               <option name="taskNames">
                 <list>
-                  <option value="clean" />
+                  <option value="build" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -219,7 +199,7 @@
               <option name="externalSystemIdString" value="GRADLE" />
               <option name="taskNames">
                 <list>
-                  <option value="build" />
+                  <option value="clean" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -484,10 +464,11 @@
       <list>
         <option value="$PROJECT_DIR$/config/inputs/input6.txt" />
         <option value="$PROJECT_DIR$/config/inputs/input2000.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Brute.java" />
         <option value="$PROJECT_DIR$/src/test/java/PointTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Point.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/Brute.java" />
+        <option value="$PROJECT_DIR$/config/inputs/input8.txt" />
       </list>
     </option>
   </component>
@@ -1013,8 +994,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Gradle.collinear [distZip]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.collinear [clean]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.collinear [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.collinear [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.collinear [clean]" />
         <item index="3" class="java.lang.String" itemvalue="Gradle.collinear [run]" />
         <item index="4" class="java.lang.String" itemvalue="Gradle.collinear [compileJava]" />
       </list>
@@ -1033,19 +1014,24 @@
       <changelist id="f3f3c59f-1f05-4d4b-91fb-bebda1efd909" name="Default" comment="" />
       <created>1407057740441</created>
       <updated>1407057740441</updated>
-      <workItem from="1407057747697" duration="10988000" />
+      <workItem from="1407057747697" duration="12170000" />
     </task>
+    <task id="LOCAL-00001" summary="brute force impl but with errors">
+      <created>1407081699828</created>
+      <updated>1407081699829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10988000" />
+    <option name="totallyTimeSpent" value="12170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1057,6 +1043,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19512194" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1064,7 +1051,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1087,6 +1074,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="brute force impl but with errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="brute force impl but with errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1117,7 +1106,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2401" max-vertical-offset="7320">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1135,8 +1124,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1726" max-vertical-offset="13170">
           <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
           <folding>
-            <element signature="e#4978#4979#0" expanded="true" />
-            <element signature="e#5016#5017#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="false" />
+            <element signature="e#5016#5017#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1146,25 +1135,6 @@
         <state vertical-scroll-proportion="0.9347826" vertical-offset="29570" max-vertical-offset="30090">
           <caret line="2000" column="13" selection-start-line="2000" selection-start-column="13" selection-end-line="2000" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/inputs/input6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Brute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1260">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,20 +1156,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="330">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PointTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1470">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <caret line="76" column="50" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/config/inputs/input6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14634146" vertical-offset="0" max-vertical-offset="410">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Brute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1560">
+          <caret line="48" column="72" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1448#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/inputs/input8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="482">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
