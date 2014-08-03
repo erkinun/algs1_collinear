@@ -76,4 +76,18 @@ public class PointTest {
 
         Assert.assertEquals(1, p1.compareTo(p2));
     }
+
+    @Test
+    public void testCollinear() throws Exception {
+        Point p1 = new Point(1234, 5678);
+        Point p2 = new Point(19000, 10000);
+        Point p3 = new Point(18000, 10000);
+        Point p4 = new Point(32000, 10000);
+
+        double slp1 = p1.slopeTo(p2);
+        double slp2 = p1.slopeTo(p3);
+        double slp3 = p1.slopeTo(p4);
+
+        Assert.assertTrue(Double.compare(slp1, slp2) != 0);
+    }
 }

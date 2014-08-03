@@ -64,7 +64,7 @@ public class Point implements Comparable<Point> {
             return Double.POSITIVE_INFINITY;
         }
 
-        return (that.y - this.y)/(that.x - this.x);
+        return (double) (that.y - this.y)/(double) (that.x - this.x);
     }
 
     // is this point lexicographically smaller than that one?
@@ -92,6 +92,17 @@ public class Point implements Comparable<Point> {
 
     // unit test
     public static void main(String[] args) {
-        /* YOUR CODE HERE */
+
+        Point p1 = new Point(1234, 5678);
+        Point p2 = new Point(19000, 10000);
+        Point p3 = new Point(18000, 10000);
+        Point p4 = new Point(32000, 10000);
+
+        double slp1 = p1.slopeTo(p2);
+        double slp2 = p1.slopeTo(p3);
+        double slp3 = p1.slopeTo(p4);
+
+        StdOut.println(slp1);
+        StdOut.println(slp2);
     }
 }
