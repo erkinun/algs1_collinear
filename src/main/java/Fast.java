@@ -16,8 +16,7 @@ public class Fast {
         In in = new In(args[0]);
 
 //        In in = new In(
-//                "/Users/ERKIN/workspace/coursera/algs1/alg1_collinear/"
-//                        + "/config/inputs/input8.txt");
+//                "/Users/erkin.unlu/workspace/coursera/algs1/algs1_collinear/config/inputs/input8.txt");
 
         int arraySize = in.readInt();
         Point[] points = new Point[arraySize];
@@ -30,15 +29,15 @@ public class Fast {
         List<Point[]> lineSegments = new ArrayList<Point[]>();
         for (Point p : points) {
 
-            StdOut.println("checking point: " + p);
+            //StdOut.println("checking point: " + p);
 
             Point[] tempPoints = Arrays.copyOf(points, points.length);
             Arrays.sort(tempPoints, p.SLOPE_ORDER);
 
-            StdOut.println("temp sorted array");
-            for (Point p1 : tempPoints) {
-                StdOut.println(p1 + " slope: " + p.slopeTo(p1));
-            }
+//            StdOut.println("temp sorted array");
+//            for (Point p1 : tempPoints) {
+//                StdOut.println(p1 + " slope: " + p.slopeTo(p1));
+//            }
 
             double slpVal = p.slopeTo(tempPoints[0]);
             int eqSlopeCount = 1;
@@ -51,7 +50,7 @@ public class Fast {
                 else {
                     if (eqSlopeCount >= 3) {
 
-                        StdOut.println("slope same count: " + eqSlopeCount);
+                        //StdOut.println("slope same count: " + eqSlopeCount);
 
                         //take out this sub segment
                         //take p and eqSlopeCount back elements
@@ -90,12 +89,13 @@ public class Fast {
 
             int pointIndex = 0;
             for (Point p : lineSegment) {
-                if ( pointIndex < lineSegment.length - 1 ) {
+                if (pointIndex < lineSegment.length - 1) {
                     StdOut.print(p.toString() + " -> ");
                 }
                 else {
                     StdOut.print(p.toString());
                 }
+                pointIndex++;
             }
             StdOut.println();
         }

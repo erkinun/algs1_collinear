@@ -56,13 +56,13 @@ public class Brute {
             int pointIndex = 0;
             for (Point p : lineSegment) {
 
-                if ( pointIndex < lineSegment.length - 1 ) {
+                if (pointIndex < lineSegment.length - 1) {
                     StdOut.print(p.toString() + " -> ");
                 }
                 else {
                     StdOut.print(p.toString());
                 }
-
+                pointIndex++;
 
             }
             StdOut.println();
