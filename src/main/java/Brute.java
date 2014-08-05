@@ -18,7 +18,7 @@ public class Brute {
         Point[] points = new Point[arraySize];
 
         int index = 0;
-        while (in.hasNextLine()) {
+        while (in.hasNextLine() && index < arraySize) {
             points[index++] = new Point(in.readInt(), in.readInt());
         }
 
@@ -52,8 +52,18 @@ public class Brute {
         }
 
         for (Point[] lineSegment: lineSegments) {
+
+            int pointIndex = 0;
             for (Point p : lineSegment) {
-                StdOut.print(p.toString() + " -> ");
+
+                if ( pointIndex < lineSegment.length - 1 ) {
+                    StdOut.print(p.toString() + " -> ");
+                }
+                else {
+                    StdOut.print(p.toString());
+                }
+
+
             }
             StdOut.println();
         }

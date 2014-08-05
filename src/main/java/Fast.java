@@ -8,21 +8,22 @@ import java.util.List;
 public class Fast {
 
     public static void main(String[] args) {
-//        if (args.length == 0) {
-//            throw new IllegalArgumentException(
-//                    "input filename must be supplied as argument");
-//        }
-//
-//        In in = new In(args[0]);
+        if (args.length == 0) {
+            throw new IllegalArgumentException(
+                    "input filename must be supplied as argument");
+        }
 
-        In in = new In(
-                "/Users/ERKIN/workspace/algs1_assignments/collinear/config/inputs/input8.txt");
+        In in = new In(args[0]);
+
+//        In in = new In(
+//                "/Users/ERKIN/workspace/coursera/algs1/alg1_collinear/"
+//                        + "/config/inputs/input8.txt");
 
         int arraySize = in.readInt();
         Point[] points = new Point[arraySize];
 
         int index = 0;
-        while (in.hasNextLine()) {
+        while (in.hasNextLine() && index < arraySize) {
             points[index++] = new Point(in.readInt(), in.readInt());
         }
 
@@ -48,13 +49,14 @@ public class Fast {
                     eqSlopeCount++;
                 }
                 else {
-                    if (eqSlopeCount >= 3){
+                    if (eqSlopeCount >= 3) {
 
                         StdOut.println("slope same count: " + eqSlopeCount);
 
                         //take out this sub segment
                         //take p and eqSlopeCount back elements
-                        Point[] sub = Arrays.copyOfRange(tempPoints, i - eqSlopeCount, i);
+                        Point[] sub = Arrays.copyOfRange(tempPoints,
+                                i - eqSlopeCount, i);
                         Point[] subExtended = Arrays.copyOf(sub, sub.length + 1);
                         subExtended[subExtended.length - 1] = p;
                         Arrays.sort(subExtended);
@@ -69,9 +71,10 @@ public class Fast {
                 }
 
                 //edge case
-                if (i == points.length -1 && eqSlopeCount >= 3){
+                if (i == points.length -1 && eqSlopeCount >= 3) {
                     //take out this sub segment
-                    Point[] sub = Arrays.copyOfRange(tempPoints, i - eqSlopeCount, i+1);
+                    Point[] sub = Arrays.copyOfRange(tempPoints,
+                            i - eqSlopeCount, i+1);
                     Point[] subExtended = Arrays.copyOf(sub, sub.length + 1);
                     subExtended[subExtended.length - 1] = p;
                     Arrays.sort(subExtended);
@@ -84,25 +87,32 @@ public class Fast {
 
         for (Point[] lineSegment: lineSegments) {
             Arrays.sort(lineSegment);
+
+            int pointIndex = 0;
             for (Point p : lineSegment) {
-                StdOut.print(p.toString() + " -> ");
+                if ( pointIndex < lineSegment.length - 1 ) {
+                    StdOut.print(p.toString() + " -> ");
+                }
+                else {
+                    StdOut.print(p.toString());
+                }
             }
             StdOut.println();
         }
 
         //draw each point
-//        StdDraw.setXscale(0, 32768);
-//        StdDraw.setYscale(0, 32768);
-//        for (Point point : points) {
-//            point.draw();
-//        }
-//
-//        //draw each line segment
-//        for (Point[] lineSegment: lineSegments) {
-//
-//            Point start = lineSegment[0];
-//            Point end = lineSegment[lineSegment.length-1];
-//            start.drawTo(end);
-//        }
+        StdDraw.setXscale(0, 32768);
+        StdDraw.setYscale(0, 32768);
+        for (Point point : points) {
+            point.draw();
+        }
+
+        //draw each line segment
+        for (Point[] lineSegment: lineSegments) {
+
+            Point start = lineSegment[0];
+            Point end = lineSegment[lineSegment.length-1];
+            start.drawTo(end);
+        }
     }
 }
